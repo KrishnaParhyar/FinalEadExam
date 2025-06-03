@@ -23,6 +23,7 @@ const TrafficLightSimulator = () => {
         }
 
         .internal-container {
+          background-color: #333;
           border-radius: 10px;
           padding: 30px;
           display: flex;
@@ -38,7 +39,7 @@ const TrafficLightSimulator = () => {
           box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.8);          
           transition: background-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
         }
-        .lights.RedLight. {
+        .lights.RedLight.active {
           background-color: #ff0000;
           box-shadow: 0 0 30px #ff0000, 0 0 60px #ff0000, inset 0 0 15px rgba(255, 0, 0, 0.8);
         }
